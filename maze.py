@@ -49,6 +49,7 @@ def draw_maze(maze, cell_size=25, fast=False):
     n = len(maze)
 
     screen = turtle.Screen()
+    screen.setup(width=600, height=400, startx=0, starty=0)
     screen.title(f"{n}x{n} Random Maze")
 
     t = turtle.Turtle()
